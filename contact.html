@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support Info</title>
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #C4DDDE;
+  border-radius: 50%;
+  border-top: 16px solid #FFFFFF;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+.topnav {
+  background-color: #EAA1D5;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: ##FFE8FF;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #469BF0;
+  color: white;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #99C6ED;
+  border: 2px solid #99C6ED;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+ 
+<div class="topnav">
+  <a style="font-family: Courier New, Courier, monospace" href="./index.html">H o m e</a>
+  <a class="active" style="font-family: Courier New, Courier, monospace" href="./contact.html">C o n t a c t</a>
+  <a style="font-family: Courier New, Courier, monospace" href="./about.html">A b o u t</a>
+</div>
+<div style="font-family: Courier New, Courier, monospace" class="sticky">Support Server <a style="text-decoration:none" href="https://discord.gg/Fs8Re4Ku9q">iSteal Longue</a></div>
+<div style="font-family: Courier New, Courier, monospace" style="padding-bottom:2000px">
+<html></html><head></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">
+DM Enderman420#8347 if you have problem with the apple ID!
+DM Zed#7000 If you have problem with the website!
+Live Support Chat
+</pre></body></html>
+<center>
+  <widgetbot
+  server="777053471073501204"
+  channel="777053471073501207"
+  width="800"
+  height="600"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+</center>
+</div>
+<footer>
+  <div style="font-family: Courier New, Courier, monospace" class="sticky">&#169; Zed - Scripter/Designer, Enderman420 - Apple ID Cracker/Apple ID Contributer & Contributors in <a style="text-decoration:none" href="https://discord.gg/Fs8Re4Ku9q">iSteal Longue</a> - 2020</div>
+  </footer>
+      </div><!-- tab-content -->
+      
+ <!-- /form -->
+
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
